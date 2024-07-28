@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ededed;
+}
+
+/* Typography */
+
+h2{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+p{
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.bold-text {
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+header {
+    width: 375px;
+    height: 67px;
+    border-bottom: 1px solid #c6c6c6;
+    margin: 0 auto;
+    background: white;
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: 375px;
+    height: 545px;
+    top: 67px;
+    background: white;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    width: 127px;
+    margin-left: 10px;
+}
+
+.profil {
+    padding: 10px;
+}
+
+.profilPic {
+    display: block;
+    width: 34px;
+    height: 34px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+.profilData {
+    display: flex;
+    flex-direction:column;
+    margin-top: 7px;
+}
+
+.postPic {
+    width: 375px;
+    height: 375px;
+}
+
+.zeichen {
+    width: 23.3px;
+    height: 22.13px;
+    margin: 10px 0 10px 10px ;
+}
+
+.herz {
+    background-image: url(images/icon-heart.png);
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+
+}
+
+.insta-symbol {
+    display: flex;
+}
+
+.splitter{
+    height: 20px;
+    background: #ededed;
+    margin: 0;
+}
+
+.zeichen:hover {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.herz:hover{
+    background-image: url(images/rotes-herz.png);
+}
